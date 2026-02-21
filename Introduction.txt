@@ -1,0 +1,133 @@
+1- General Term 
+
+- what is Apache Kafka primary used: Distributed event streaming. 
+
+- You can run multiple Apache Kafka servers in a cluster. True
+
+-  what is a Producer? A microservice that publishes events
+
+- what is a Consumer? A microservice that consumes or reads events from kafka topics
+
+- what is Broker> A server that manages Kafka topics, facilitates writes to partitions, and handles replication. 
+
+2- What is an Event? :
+
+- an events is an indication that something has happened. 
+- what changes in the Producer 
+
+Ex: UserLoggedInEvent; ProductCreatedEvent; OrderCreatedEvent 
+
+3- How to name Event?
+
+<Noun><PerformedAction>Event
+
+Ex: 
+
+ProductCreatedEvent
+
+ProductShippedEvent 
+
+ProductDeletedEvent 
+
+4- What is Message 
+
+Kafka Message : យើងគិតវាដូចជាសំបុត្រមួយចឹងដែលវាមានផ្ទុកនូវ Key-value pair 
+
+what it have inside the Kafka Message :
+
+- Key , Events, Timestamp and Headers 
+
+5- What is Topic 
+
+is a place where Kafka stores all the published message. 
+
+how to name a topic 
+
+Ex: product-created-event-topic
+
+The topic itself is a logical concept in Kafka, but each partition is actually a small storage
+
+unit that holds data and it is stored on a hard disk on Kafka server. 
+
+
+- a default topic can store 7 days but we can change it 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
